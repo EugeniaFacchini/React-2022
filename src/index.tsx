@@ -24,13 +24,11 @@ const App: React.FunctionComponent = () => {
     const [temporalValue2, setTemporalValue2] = useState(initialValue2);
 
     return <div className='app'>
-        <div className='wrapper counter'>
-            <DateComponent date={date}></DateComponent>
-            <button onClick={() => {
-                console.log("OnClick del Bottone");
-                setDate(new Date());
-            }} className="Button">Aggiorna Data</button>
+        <div className='wrapper'>
+            <ButtonComponent text='Primo Bottone' callback={() => { console.log("OnClick primo bottone") }}></ButtonComponent>
+            <ButtonComponent text='Secondo Bottone' callback={() => { alert("OnClick secondo bottone") }}></ButtonComponent>
         </div>
+
         <div>
             {
 
@@ -57,9 +55,12 @@ const App: React.FunctionComponent = () => {
             <div className='showInfo'>Il valore del Contatore 1 è : {temporalValue1}</div>
             <div className='showInfo'>Il valore del Contatore 2 è : {temporalValue2}</div>
         </div>
-        <div className='wrapper'>
-            <ButtonComponent text='Primo Bottone' callback={() => { console.log("OnClick primo bottone") }}></ButtonComponent>
-            <ButtonComponent text='Secondo Bottone' callback={() => { alert("OnClick secondo bottone") }}></ButtonComponent>
+        <div className='wrapper counter'>
+            <DateComponent date={date}></DateComponent>
+            <button onClick={() => {
+                console.log("OnClick del Bottone");
+                setDate(new Date());
+            }} className="Button">Aggiorna Data</button>
         </div>
     </div>
 
