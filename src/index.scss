@@ -1,49 +1,105 @@
 $background: rgb(133, 117, 192);
 
 body {
-    background: $background;
-    font-family:'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: $background;
+  font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.title{
-    font-size: 24px;
+.title {
+  font-size: 24px;
 }
-.subtitle{
-    font-style: italic;
+.subtitle {
+  font-style: italic;
 }
-.name{
-    font-size: 14px;
+.name {
+  font-size: 14px;
 }
-.surname{
-    font-size: 16px;
+.surname {
+  font-size: 16px;
 }
-// .wrapper{
-//     display:flex;
-//     align-items: center;
-//     justify-content: space-between;
-// }
-.testComponent{
-    background: #fff;
-    border-radius: 4px;
-    border-radius: 1px solid #ccc;
-    padding: 8px;
-    margin: 8px;
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testComponent {
+  background: #fff;
+  border-radius: 4px;
+  border-radius: 1px solid #ccc;
+  padding: 8px;
+  margin: 8px;
 }
 
-.post{
-    background: #fff;
+.post {
+  background: #fff;
+  border-radius: 5px;
+  border-radius: 2px solid rgb(201, 203, 236);
+  padding: 8px;
+  margin: 8px;
+}
+.content {
+  font-style: italic;
+  font-size: 18px;
+}
+.title {
+  font-size: 30px;
+}
+.author {
+  text-align: end;
+  font-size: 14px;
+}
+
+.date {
+  background: rgb(206, 145, 247);
+  border-radius: 5px;
+  border-radius: 2px solid rgb(201, 203, 236);
+  padding: 8px;
+  margin: 8px;
+}
+
+.value {
+  background: rgb(206, 145, 247);
+  border-radius: 5px;
+  border-radius: 2px solid rgb(201, 203, 236);
+  padding: 20px;
+  margin: 8px;
+}
+.Button {
+  background-color: rgb(105, 16, 128);
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.counter {
+  background: rgb(195, 202, 241);
+  border-radius: 5px;
+  border-radius: 2px solid rgb(201, 203, 236);
+  padding: 8px;
+  margin: 8px;
+  width: 40%;
+  align-items: center;
+}
+
+.showInfo {
+  background: rgb(168, 178, 238);
+  border-radius: 5px;
+  border-radius: 2px solid rgb(201, 203, 236);
+  padding: 10px;
+  margin: 8px;
+  width: 20%;
+}
+
+.coolButton{
+    //background-color: rgb(80, 5, 99);
+    color: white;
+    font-size: 20px;
+    padding: 20px 60px;
     border-radius: 5px;
-    border-radius: 2px solid rgb(201, 203, 236);
-    padding: 8px;
-    margin: 8px;
-}
-.content{
-    font-style: italic;
-    font-size: 18px;
-}
-.title{
-    font-size: 30px;
-}
-.author{
-    text-align: end;
-    font-size: 14px;
+    margin: 10px 0px;
+    background-image: linear-gradient(to bottom right, rgb(80, 5, 99), rgb(94, 117, 245));
+    cursor: pointer;
+
 }
