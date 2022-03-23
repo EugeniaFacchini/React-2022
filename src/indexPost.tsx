@@ -13,7 +13,7 @@ import { FormComponent } from './postForm';
 const App: React.FunctionComponent = () => {
 
     return <div className='app'>
-        <FormComponent formCallback={(post)=>{console.log(post)}} ></FormComponent>
+        <FormComponent formCallback={()=>{}}></FormComponent>
     </div>
 }
 
@@ -21,4 +21,3 @@ ReactDOM.render(
     <App />,
     document.getElementById('root')
 );
-

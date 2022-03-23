@@ -35,7 +35,7 @@ body {
   border-radius: 2px solid rgb(201, 203, 236);
   padding: 8px;
   margin: 8px;
-  width:60%;
+  width: 60%;
 }
 .content {
   font-style: italic;
@@ -67,9 +67,9 @@ body {
 .Button {
   background-color: rgb(105, 16, 128);
   color: white;
-  font-size: 20px;
-  padding: 10px 60px;
-  border-radius: 5px;
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 8px;
   margin: 10px 0px;
   cursor: pointer;
 }
@@ -93,14 +93,54 @@ body {
   width: 20%;
 }
 
-.coolButton{
-    //background-color: rgb(80, 5, 99);
-    color: white;
-    font-size: 20px;
-    padding: 20px 60px;
-    border-radius: 5px;
-    margin: 10px 0px;
-    background-image: linear-gradient(to bottom right, rgb(80, 5, 99), rgb(94, 117, 245));
-    cursor: pointer;
+.coolButton {
+  //background-color: rgb(80, 5, 99);
+  color: white;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(80, 5, 99),
+    rgb(94, 117, 245)
+  );
+  cursor: pointer;
+}
 
+.input {
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(203, 193, 240);
+  box-shadow: rgb(65, 10, 87);
+  font-size: 16px;
+}
+
+.textarea {
+    padding: 10px;
+    border-radius: 10px solid rgb(65, 10, 87);
+    color: white;
+    width:40%;
+    height: 250px;
+    background: rgb(55, 1, 80);
+    box-shadow: rgb(65, 10, 87);
+    resize: none;
+    font-size: 16px;
+  }
+
+.form{
+    margin: auto;
+    width: 50%;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(222, 188, 241);
+}
+
+.label{
+    font-style: italic;
+    padding: 10px;
+}
+
+.center{
+  text-align: center;
 }
